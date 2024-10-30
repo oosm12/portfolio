@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Platform - Activity 3</title>
+    <link rel="stylesheet" href="./css/activity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="./js/nav.js" defer></script>
+    <script src="./js/activity.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🎵portfolio</h1>
+            <div id="auth">
+                <i class="fas fa-user" onclick="location.href='profile.html'"></i>
+                <a href="./index.html" id="logout">logout</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./home.html">home</a></li>
+                <li><a href="./skills.html">skills</a></li>
+                <li><a href="./activity.html">activity</a></li>
+                <li><a href="./protfolio.html">portfolio</a></li>
+                <li><a href="./contect.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h2>2023.01</h2>
+                    <h3>환류플랫폼 모니터링단</h3>
+                    <p>환류플랫폼 교육 및 협업</p>
+                </div>
+                <img src="./assets/activity.5.png" alt="Monitoring" class="timeline-img">
+            </div>
+            <div class="timeline-item right">
+                <img src="./assets/activity.6.png" alt="Internship" class="timeline-img">
+                <div class="timeline-content">
+                    <h2>2024.01 ~ 2025.02</h2>
+                    <h3>ipp 일학습 병행</h3>
+                    <p>ncs 교육 및 기업 실습</p>
+                </div>
+            </div>
+        </div>
+        <button class="next-button">next</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio Platform</p>
+    </footer>
+</body>
+</html>
