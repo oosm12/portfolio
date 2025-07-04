@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Platform - Home</title>
+    <link rel="stylesheet" href="../../css/styless.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="../../js/home.js" defer></script>
+    <script src="../../js/nav.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🎵portfolio</h1>
+            <div id="auth">
+                <i class="fas fa-user" onclick="location.href='profile.html'"></i>
+                <a href="./index.html" id="logout">logout</a></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../home/home.html">home</a></li>
+                <li><a href="../skill/skills.html">skills</a></li>
+                <li><a href="../activitys/activity.html">ativity</a></li>
+                <li><a href="../protfolio/protfolio.html">portfolio</a></li>
+                <li><a href="../contect/contect.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>기자 활동</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <a href="./article_gap.html">
+                <img src="../../../assets/port1.jpg" alt="팀">
+                <p>틈</p>
+            </a>
+            </div>
+            <div class="portfolio-item">
+                <a href="./article_we.html">
+                <img src="../../../assets/port2.png" alt="지금, 우리는">
+                <p>지금, 우리는</p>
+            </a>
+            </div>
+        </div>
+        <button class="next-button" onclick="location.href='project.html'">next</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio Platform</p>
+    </footer>
+</body>
+</html>

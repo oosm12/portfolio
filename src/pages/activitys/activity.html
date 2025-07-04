@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Platform - Activity</title>
+    <link rel="stylesheet" href="../../css/activity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="../../js/nav.js" defer></script>
+    <script src="../../js/activity.js" defer></script>
+    <script src="../../js/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🎵portfolio</h1>
+            <div id="auth">
+                <i class="fas fa-user" onclick="location.href='profile.html'"></i>
+                <a href="./index.html" id="logout">logout</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../home/home.html">home</a></li>
+                <li><a href="../skill/skills.html">skills</a></li>
+                <li><a href="../activitys/activity.html">activity</a></li>
+                <li><a href="../protfolio/protfolio.html" class="active">portfolio</a></li>
+                <li><a href="../contect/contect.html">contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h2>2021 ~ 2023.02</h2>
+                    <h3>한남대 미디어센터 기자</h3>
+                    <p>한남대학교 미디어센터 교지편집부 소속 기자</p>
+                </div>
+                <img src="../../../assets/activity.1.png" alt="Media Center" class="timeline-img">
+            </div>
+            <div class="timeline-item right">
+                <img src="../../../assets/activity.2.png" alt="Media Course" class="timeline-img">
+                <div class="timeline-content">
+                    <h2>2022.01 ~ 03.01</h2>
+                    <h3>대시미 교육 과정 수료</h3>
+                    <p>대전 시청자 미디어 교육 이수 영상 제작</p>
+                </div>
+            </div>
+        </div>
+        <button class="next-button" onclick="location.href='activity2.html'">next</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio Platform</p>
+    </footer>
+</body>
+</html>
