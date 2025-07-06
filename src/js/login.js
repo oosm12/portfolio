@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const password = document.getElementById('password').value;
 
         // 여기에서 아이디와 비밀번호를 검증합니다.
-        if (username === '20212001' && password === '021220') {
+        if (username === '12345' && password === '12345') {
             // 로그인 성공 시 로컬 스토리지에 로그인 상태 저장
             localStorage.setItem('isLoggedIn', 'true');
             // home.html로 이동
