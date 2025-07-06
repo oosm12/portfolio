@@ -161,6 +161,9 @@ main {
 }
 
 .next-button {
+    position: absolute;
+    top: 100px;       /* 상단 여백 */
+    right: 20px;     /* 오른쪽 여백 */
     padding: 10px 20px;
     font-size: 1em;
     color: white;
@@ -169,6 +172,7 @@ main {
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 .next-button:hover {
     background-color: #e6b566;
